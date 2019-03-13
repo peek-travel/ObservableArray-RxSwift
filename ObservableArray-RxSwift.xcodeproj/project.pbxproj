@@ -209,7 +209,6 @@
 				63AB6FFD1E23D93900F20D88 /* Frameworks */,
 				63AB6FFE1E23D93900F20D88 /* Headers */,
 				63AB6FFF1E23D93900F20D88 /* Resources */,
-				63AB70191E23D94A00F20D88 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -265,7 +264,6 @@
 				8D8C92E71C342014006B75DF /* Frameworks */,
 				8D8C92E81C342014006B75DF /* Headers */,
 				8D8C92E91C342014006B75DF /* Resources */,
-				8D8C930A1C342370006B75DF /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -420,21 +418,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		63AB70191E23D94A00F20D88 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		63AB701A1E23D97F00F20D88 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,21 +425,6 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		8D8C930A1C342370006B75DF /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			name = Carthage;
 			outputPaths = (
@@ -841,7 +809,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -868,7 +836,7 @@
 				PRODUCT_NAME = ObservableArray;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
